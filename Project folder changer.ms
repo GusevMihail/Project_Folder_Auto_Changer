@@ -35,7 +35,7 @@ function change_project_folder =
 		(
 			-- If OK, change Project Folder and print success message
 			pathConfig.setCurrentProjectFolder project_folder_path
-			print "project folder is set to: " + project_folder_path
+			print ("project folder is set to: " + project_folder_path)
 		)
 		else
 			print "Error: invalid project folder path"
